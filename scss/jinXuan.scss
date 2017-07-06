@@ -4,6 +4,7 @@
     box-shadow: #ccc 0 0.03rem 0.13rem;
 }
 
+
 body{
     background: #eee;
 }
@@ -79,12 +80,6 @@ nav{
 #banner{
     margin-top: 2.8rem;
     height:4.4rem;
-    .swiper-container-horizontal>.swiper-pagination-bullets{
-        left: 4.45rem;
-    }
-    .swiper-pagination-bullet-active{
-               background: #FFFFFF;
-           }
     .swiper-container{
         height:100%;
         img{
@@ -92,14 +87,13 @@ nav{
         }
         .swiper-wrapper{
            transition-timing-function:ease-in-out;
-           
         }
     }
 }
 
 #kind{
     background: #fff;
-    height: 5.75rem;
+    height: 4.75rem;
     box-shadow: #ccc 0 0.05rem 0.1rem;
     .ul_1{
         margin-bottom: 0.6rem;
@@ -125,95 +119,67 @@ nav{
             }
         }
     }
-    dl{
-        height: 0.54rem;
-        dt{
-            float: left;
-            margin-left: 0.35rem;
-            width: 1.32rem;
-            height: 0.54rem;
-            background: url(../img/small/14.png) no-repeat center {
-                size: 1.32rem auto;
-            };
-        }
-        dd{
-            float: left;
-            margin-left: 0.55rem;
-            ul{
-                height:0.54rem;
-                overflow: hidden;
-                li{
-                    font:0.3rem/0.54rem "";
-                }
-            }
-        }
-    }
+    
 }
 
 #box1{
-    height: auto;
-    box-shadow: #ccc 0 0.05rem 0.1rem;
-    padding-top: 0.45rem;
-    h3{
-        height: 0.35rem;
-        font:0.35rem/0.35rem "";
-        border-left: 0.1rem solid #F04847;
-        margin-bottom: 0.3rem;
-        margin-left: 0.4rem;
-        text-indent: 0.3rem;
-    }
-    .box_t{
-        height: 4.67rem;
-        border-bottom: 1px solid #CCCCCC;
-        box-sizing: border-box;
-        overflow: hidden;
-        .box_t_l{
-            float: left;
-            width: 4.15rem;
-            height: 100%;
+    background: #FFFFFF;
+    @include shadow;
+    margin-top: 0.45rem;
+    ul{
+        
+        height: 3.6rem;
+        
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        li{
+            width: 50%;
+            height: 50%;
             box-sizing: border-box;
-            border-right: 1px solid #CCCCCC;
-            img{
-                width: 100%;
-                display: block;
+            &:nth-child(1){
+                border: {
+                    right:1px solid #CCCCCC;
+                    bottom: 1px solid #CCCCCC;
+                };
             }
-        }
-        .box_t_r{
-            float: left;
-            width: 6.65rem;
-            height: 100%;
-            img{
-                width: 100%;
-                display: block;
+            &:nth-child(2){
+                border: {
+                    bottom:1px solid #CCCCCC;
+                };
             }
-        }
-    }
-    .box_b{
-        height: 3.43rem;
-        ul{
-            height:100%;
-            display: flex;
-            li{
-                flex: 1;
-                border:{
-                    left:1px solid #CCCCCC;
+            &:nth-child(3){
+                border: {
+                    right: 1px solid #CCCCCC;
+                };
+            }
+            dl{
+                dt{
+                    float: left;
+                    width: 1.37rem;
+                    height: 1.31rem;
+                    margin:0.25rem 0 0 0.25rem;
+                    img{
+                        width: 100%;
+                        display: block;
+                    }
                 }
-                &:nth-child(1){
-                    border: 0;
+                dd{
+                    width: 3.5rem;
+                    float: right;
+                    margin-top: 0.3rem;
+                    h5{
+                        font:0.4rem/0.63rem "";
+                    }
+                    h6{
+                        font:0.3rem/0.5rem "";
+                        color:#666666;
+                    }
                 }
-                img{
-                width: 100%;
-                display: block;
-            }
             }
         }
     }
-    .ad{
-        img{
-            width: 100%;
-            display: block;
-        }
-    }
+    
 }
 
 #box2{

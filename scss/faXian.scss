@@ -97,174 +97,30 @@ nav{
     }
 }
 
-#kind{
-    background: #fff;
-    height: 5.75rem;
-    box-shadow: #ccc 0 0.05rem 0.1rem;
-    .ul_1{
-        margin-bottom: 0.6rem;
-        height: 4.14rem;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        align-content: space-between;
-        li{
-            width:1.3rem;
-            height: 2.07rem;
-            margin:0 0.43rem;
-            img{
-                padding-top: 0.6rem;
-                display: block;
-                margin:0 auto;
-                height: 0.74rem;
-            }
-            p{
-                padding-top: 0.42rem;
-                text-align: center;
-                font:0.3rem "";
-            }
-        }
-    }
-    dl{
-        height: 0.54rem;
-        dt{
-            float: left;
-            margin-left: 0.35rem;
-            width: 1.32rem;
-            height: 0.54rem;
-            background: url(../img/small/14.png) no-repeat center {
-                size: 1.32rem auto;
-            };
-        }
-        dd{
-            float: left;
-            margin-left: 0.55rem;
-            ul{
-                height:0.54rem;
-                overflow: hidden;
-                li{
-                    font:0.3rem/0.54rem "";
-                }
-            }
-        }
-    }
-}
-
-#box1{
-    height: auto;
-    box-shadow: #ccc 0 0.05rem 0.1rem;
-    padding-top: 0.45rem;
-    h3{
-        height: 0.35rem;
-        font:0.35rem/0.35rem "";
-        border-left: 0.1rem solid #F04847;
-        margin-bottom: 0.3rem;
-        margin-left: 0.4rem;
-        text-indent: 0.3rem;
-    }
-    .box_t{
-        height: 4.67rem;
-        border-bottom: 1px solid #CCCCCC;
-        box-sizing: border-box;
-        overflow: hidden;
-        .box_t_l{
-            float: left;
-            width: 4.15rem;
-            height: 100%;
-            box-sizing: border-box;
-            border-right: 1px solid #CCCCCC;
-            img{
-                width: 100%;
-                display: block;
-            }
-        }
-        .box_t_r{
-            float: left;
-            width: 6.65rem;
-            height: 100%;
-            img{
-                width: 100%;
-                display: block;
-            }
-        }
-    }
-    .box_b{
-        height: 3.43rem;
-        ul{
-            height:100%;
-            display: flex;
-            li{
-                flex: 1;
-                border:{
-                    left:1px solid #CCCCCC;
-                }
-                &:nth-child(1){
-                    border: 0;
-                }
-                img{
-                width: 100%;
-                display: block;
-            }
-            }
-        }
-    }
-    .ad{
-        img{
-            width: 100%;
-            display: block;
-        }
-    }
-}
 
 #box2{
     padding-top: 0.4rem;
         padding-bottom: 1.5rem;
     ul{
+        width: 10.33rem;
+        margin: 0 auto 0.35rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
         li{
             background: #FFFFFF;
             @include shadow;
-            width: 10.3rem;
-            height: 4.6rem;
+            width: 5.05rem;
+            height: 8.31rem;
             border-radius: 3px;
-            margin:0 auto 0.35rem;
-            &:nth-child(1){
-                .title h4{
-                    background: url(../img/small/23.png) no-repeat left center {
-                            size: 0.3rem auto;
-                        };
-                }
-            }
+            margin-bottom: 0.22rem;
             a{
-                .title{
-                    height: 0.8rem;
-                    border-bottom: 1px solid #DDDDDD;
-                    h4{
-                        float: left;
-                        margin-left: 0.32rem;
-                        font:0.34rem/0.8rem "";
-                        text-indent: 0.45rem;
-                        background: url(../img/small/24.png) no-repeat left center {
-                            size: 0.3rem auto;
-                        };
-                        
-                    }
-                    b{
-                        float: left;
-                        padding:0 0.1rem;
-                        height: 0.4rem;border: 1px solid #DDDDDD;
-                        border-radius: 3px;
-                        text-align: center;
-                        font:0.27rem/0.4rem "";
-                        margin:0.16rem 0.2rem 0;
-                    }
-                }
+                
                 dl{
-                    width: 9.72rem;
-                    margin:0.43rem auto 0;
                     dt{
-                        float: left;
-                        width:2.96rem;
-                        height:2.96rem;
+                        width:4.52rem;
+                        height:4.48rem;
+                        margin: 0.26rem auto 0.43rem;
                         img{
                             display: block;
                             width:100%;
@@ -272,9 +128,10 @@ nav{
                         }
                     }
                     dd{
-                        float: right;
-                        width: 6.37rem;
                         h4{
+                            height: 1.35rem;
+                            width: 4.45rem;
+                            margin: 0 auto;
                             font:0.43rem/0.72rem "微软雅黑" {
                                 weight:600;
                             };
@@ -284,9 +141,13 @@ nav{
                             font:0.36rem "";
                             color:#F04847;
                             padding-top: 0.3rem;
+                            width: 4.45rem;
+                            margin: 0 auto;
                         }
                         h6{
                             padding-top: 0.3rem;
+                            width: 4.45rem;
+                            margin: 0 auto;
                             b{
                                 float: left;
                                 font:0.28rem "";
