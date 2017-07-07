@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+
 @mixin shadow{
     box-shadow: #ccc 0 0.03rem 0.13rem;
 }
@@ -50,125 +51,95 @@ header{
     }
 }
 
-nav{
-    background: #fff;
-    height:1.2rem;
-    box-shadow: #ccc 0 0.05rem 0.1rem;
-    display: flex;
-    justify-content: space-around;
-    z-index: 5;
-    position: fixed;
-    width: 100%;
-    top: 1.6rem;
-    a{
-        font:0.38rem "";
-        align-self: center;
-        color:#000000;
-    }
-    b{
-        position: absolute;
-        background: #f04847;
-        width:0.9rem;
-        height:0.12rem;
-        bottom: 0;
-        left: 7.65rem;
-    }
-}
-
-#nav2{
-    height: 1.05rem;
-    background: #FFFFFF;
-    margin-top: 2.8rem;
-    ul{
-        display: flex;
-        justify-content: space-around;
-        height: 100%;
-        li{
-            width: 1.15rem;
-            align-self: center;
-            font:0.36rem "";
-            background: url(../img/small/58.jpg) no-repeat right center {size: 0.25rem auto;};
-            
-        }
-    }
-}
 
 
 #banner{
-    height:0.93rem;
-    margin: 0.4rem 0.2rem 0 0.2rem;
+    margin-top: 1.6rem;
+    height:4.4rem;
+    .swiper-container-horizontal>.swiper-pagination-bullets{
+        left: 4.45rem;
+    }
+    .swiper-pagination-bullet-active{
+               background: #FFFFFF;
+           }
     .swiper-container{
         height:100%;
-        .swiper-slide{
-            width: 1.96rem;
-            &:nth-child(2){width: 1.5rem !important;}
-        }
-        p{
-            font:0.38rem "";
-            text-align:center;
-                background: #fff;
-            padding: 0.2rem 0.2rem;
-            border-radius: 0.05rem;
-            margin: 0 auto;
+        img{
+            width:100%;
         }
         .swiper-wrapper{
            transition-timing-function:ease-in-out;
+           
         }
     }
 }
 
-#box1{
-    width: 10.3rem;
-    height: 5.6rem;
-    margin: 0.35rem auto 0rem;
+#kind{
     background: #fff;
-    @include shadow;
-    padding: 0 0.5rem;
-    box-sizing: border-box;
-    h4{
-        font:0.43rem/1.6rem "";
-        text-align: center;
-        font-weight: 600;
+    height: 2.6rem;
+    box-shadow: #ccc 0 0.05rem 0.1rem;
+    .ul_1{
+        margin-bottom: 0.6rem;
+        height: 2.14rem;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: space-between;
+        li{
+            width:1.3rem;
+            height: 2.07rem;
+            margin:0 0.43rem;
+            img{
+                padding-top: 0.6rem;
+                display: block;
+                margin:0 auto;
+                height: 0.74rem;
+            }
+            p{
+                padding-top: 0.42rem;
+                text-align: center;
+                font:0.3rem "";
+            }
+        }
     }
-    h5{
-        font:0.34rem/0.68rem "";
-        color:#555;
-    }
-    h6{
-        width: 2.4rem;
-        height: 1.1rem;
-        background: #F04847;
-        font:0.34rem/1.1rem "";
-        text-align: center;
-        @include shadow;
-        margin: 0.4rem auto 0;
-    }
+    
 }
 
+#box1{
+    height: auto;
+    padding-top: 0.45rem;
+    h3{
+        height: 0.35rem;
+        font:0.35rem/0.35rem "";
+        border-left: 0.1rem solid #F04847;
+        margin-bottom: 0.3rem;
+        margin-left: 0.4rem;
+        text-indent: 0.3rem;
+    }
+    
+}
 
 #box2{
-    padding-top: 0.4rem;
         padding-bottom: 1.5rem;
     ul{
-        width: 10.33rem;
-        margin: 0 auto 0.35rem;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
         li{
             background: #FFFFFF;
-            @include shadow;
-            width: 5.05rem;
-            height: 8.31rem;
-            border-radius: 3px;
-            margin-bottom: 0.22rem;
+            height: 3.64rem;
+            
             a{
+                width: 100%;
+height: 100%;
+display: block;
+position: relative;
                 
                 dl{
+                    width: 9.72rem;
+                    margin:0 auto 0;
                     dt{
-                        width:4.52rem;
-                        height:4.48rem;
-                        margin: 0.26rem auto 0.43rem;
+                        float: left;
+                        width:2.96rem;
+                        height:2.96rem;
+                        margin-top: 0.38rem;
                         img{
                             display: block;
                             width:100%;
@@ -176,30 +147,36 @@ nav{
                         }
                     }
                     dd{
+                        float: right;
+                        width: 6.37rem;
+                        margin-top: 0.38rem;
+                        
                         h4{
-                            height: 1.35rem;
-                            width: 4.45rem;
-                            margin: 0 auto;
                             font:0.43rem/0.72rem "微软雅黑" {
                                 weight:600;
                             };
                             color:#000000;
+                            padding-top: 0.15rem;
                         }
-                        h5{
-                            font:0.36rem "";
-                            color:#F04847;
-                            padding-top: 0.3rem;
-                            width: 4.45rem;
-                            margin: 0 auto;
-                        }
+                        
                         h6{
                             padding-top: 0.3rem;
-                            width: 4.45rem;
-                            margin: 0 auto;
+                            position: absolute;
+                            bottom: 0.5rem;
+                            width: 6.37rem;
                             b{
                                 float: left;
                                 font:0.28rem "";
                                 color:#666666;
+                                img{
+                                    width: 0.5rem;
+                                    float: left;
+                                }
+                                span{
+                                    float: right;
+                                    margin:0.05rem 0 0 0.08rem;
+                                    font:0.27rem "";
+                                }
                             }
                             i{
                                 float: right;
@@ -211,10 +188,13 @@ nav{
                                 color:#666666;
                             }
                             s{
+                                padding-left: 0.4rem;
                                 float: right;
                                 margin-left: 0.6rem;
                                 font:0.28rem "";
                                 color:#666666;
+                                background: url(../img/small/65.jpg) no-repeat left center;
+                                background-size: 0.27rem auto;
                             }
                         }
                     }
