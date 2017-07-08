@@ -22,9 +22,12 @@ vertical-align:middle;}
 /*万能清除浮动法*/
 .clear{zoom:1;}
 .clear:after{content:"";clear:both;display:block;}
-
-
-
+/*
+@mixin cf{
+    zoom:1;
+    &:after{content:"";clear:both;display:block;}
+}
+*/
 
 
 
