@@ -1,0 +1,149 @@
+body {
+  background: #eee; }
+
+header {
+  border-bottom: 1px solid #dddddd;
+  height: 1.6rem;
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 5;
+  box-sizing: border-box; }
+  header a {
+    float: left;
+    width: 0.48rem;
+    height: 0.48rem;
+    margin: 0.57rem 0 0 0.57rem;
+    background: url(../img/small/76.jpg) no-repeat left center;
+      background-size: 0.48rem auto; }
+  header h3 {
+    float: left;
+    margin-left: 0.5rem;
+    font: 0.58rem/1.6rem "";
+      font-weight: 600; }
+
+#jifen {
+  height: 2rem;
+  zoom: 1;
+  margin-top: 1.6rem;
+  background: #F04847; }
+  #jifen:after {
+    content: "";
+    clear: both;
+    display: block; }
+  #jifen h4 {
+    float: left;
+    height: 100%;
+    margin-left: 0.33rem; }
+    #jifen h4 b {
+      font: 0.34rem/2rem "";
+      color: #fff; }
+    #jifen h4 i {
+      font: 0.44rem/2rem "";
+      color: #fff; }
+  #jifen a {
+    float: right;
+    font: 0.40rem/2rem "";
+    margin-right: 0.33rem;
+    color: #fff; }
+
+#dailing .title {
+  height: 1.6rem;
+  background: #EEEEEE; }
+  #dailing .title a {
+    float: right;
+    height: 1.6rem;
+    margin-right: 0.52rem;
+    font: 0.4rem/1.6rem ""; }
+  #dailing .title h4 {
+    float: left;
+    margin-left: 0.5rem;
+    font: 0.4rem/1.6rem "";
+    text-indent: 0.9rem;
+    background: url(../img/small/84.jpg) no-repeat left center;
+    background-size: 0.58rem auto; }
+#dailing ul li {
+  background: #fff;
+  height: 2.74rem;
+  margin-bottom: 0.15rem; }
+  #dailing ul li dl {
+    zoom: 1; }
+    #dailing ul li dl:after {
+      content: "";
+      clear: both;
+      display: block; }
+    #dailing ul li dl dt {
+      float: left;
+      width: 1.48rem;
+      height: 1.48rem;
+      margin: 0.6rem 0.35rem 0 0.46rem; }
+      #dailing ul li dl dt img {
+        display: block;
+        width: 100%; }
+    #dailing ul li dl dd {
+      float: left;
+      margin-top: 0.62rem; }
+      #dailing ul li dl dd h4 {
+        font: 0.36rem/0.63rem "";
+        color: #444; }
+      #dailing ul li dl dd h5 {
+        font: 0.38rem/0.63rem ""; }
+        #dailing ul li dl dd h5 b {
+          color: #F04847;
+          margin-right: 0.42rem; }
+
+#yiling .title {
+  height: 1.6rem;
+  background: #EEEEEE; }
+  #yiling .title a {
+    float: right;
+    height: 1.6rem;
+    margin-right: 0.52rem;
+    font: 0.4rem/1.6rem ""; }
+  #yiling .title h4 {
+    float: left;
+    margin-left: 0.5rem;
+    font: 0.4rem/1.6rem "";
+    text-indent: 0.9rem;
+    background: url(../img/small/84.jpg) no-repeat left center;
+    background-size: 0.58rem auto; }
+#yiling ul {
+  min-height: 2.68rem;
+  background: #fff; }
+  #yiling ul > img {
+    padding-top: 0.68rem;
+    display: block;
+    width: 5.6rem;
+    margin: auto; }
+  #yiling ul li {
+    background: #FAFAFA;
+    height: 2.74rem;
+    margin-bottom: 0.15rem; }
+    #yiling ul li dl {
+      zoom: 1; }
+      #yiling ul li dl:after {
+        content: "";
+        clear: both;
+        display: block; }
+      #yiling ul li dl dt {
+        float: left;
+        width: 1.48rem;
+        height: 1.48rem;
+        margin: 0.6rem 0.35rem 0 0.46rem; }
+        #yiling ul li dl dt img {
+          display: block;
+          width: 100%; }
+      #yiling ul li dl dd {
+        float: left;
+        margin-top: 0.62rem; }
+        #yiling ul li dl dd h4 {
+          font: 0.36rem/0.63rem "";
+          color: #444; }
+        #yiling ul li dl dd h5 {
+          font: 0.38rem/0.63rem ""; }
+          #yiling ul li dl dd h5 b {
+            color: #F04847;
+            margin-right: 0.42rem; }
+
+/*# sourceMappingURL=libao.css.map */

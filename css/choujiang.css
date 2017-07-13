@@ -1,0 +1,97 @@
+@charset "UTF-8";
+body {
+  background: #eee; }
+
+header {
+  border-bottom: 1px solid #dddddd;
+  height: 1.6rem;
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 5;
+  box-sizing: border-box; }
+  header a {
+    float: left;
+    width: 0.48rem;
+    height: 0.48rem;
+    margin: 0.57rem 0 0 0.57rem;
+    background: url(../img/small/76.jpg) no-repeat left center;
+      background-size: 0.48rem auto; }
+  header h3 {
+    float: left;
+    margin-left: 0.5rem;
+    font: 0.58rem/1.6rem "";
+      font-weight: 600; }
+
+#banner {
+  height: 4.46rem;
+  margin-top: 1.6rem; }
+  #banner img {
+    display: block;
+    width: 100%; }
+
+#box2 .title h4 {
+  height: 1.7rem;
+  font: 0.7rem/1.7rem "";
+  text-align: center;
+  color: #F04847;
+  border-bottom: 1px solid #F04847; }
+#box2 ul {
+  margin: 0 auto 0.35rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  #box2 ul li {
+    background: #FFFFFF;
+    box-shadow: #ccc 0 0.03rem 0.13rem;
+    width: 50%;
+    height: 10.5rem; }
+    #box2 ul li a dl dt {
+      width: 4.52rem;
+      height: 4.48rem;
+      margin: 0.26rem auto 0.43rem; }
+      #box2 ul li a dl dt img {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    #box2 ul li a dl dd h4 {
+      height: 1.35rem;
+      width: 4.45rem;
+      margin: 0 auto;
+      font: 0.43rem/0.72rem "微软雅黑";
+        font-weight: 600;
+      color: #000000; }
+    #box2 ul li a dl dd h5 {
+      font: 0.36rem "";
+      color: #F04847;
+      padding-top: 0.3rem;
+      width: 4.45rem;
+      margin: 0 auto; }
+    #box2 ul li a dl dd h6 {
+      padding-top: 0.2rem;
+      width: 4.45rem;
+      margin: 0 auto;
+      font: 0.34rem/0.34rem ""; }
+    #box2 ul li a dl dd p:nth-child(4) {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      width: 4.82rem;
+      height: 0.8rem;
+      background: #F04847;
+      font: 0.35rem/0.8rem "";
+      color: #fff;
+      text-align: center;
+      border-radius: 3px; }
+    #box2 ul li a dl dd p:nth-child(5) {
+      margin: 0 auto;
+      margin-top: 0.3rem;
+      width: 4.82rem;
+      height: 0.8rem;
+      background: #219DE3;
+      font: 0.35rem/0.8rem "";
+      color: #fff;
+      text-align: center;
+      border-radius: 3px; }
+
+/*# sourceMappingURL=choujiang.css.map */

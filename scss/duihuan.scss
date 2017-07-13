@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+@mixin cf{
+    zoom:1;
+    &:after{content:"";clear:both;display:block;}
+}
+@mixin shadow{
+    box-shadow: #ccc 0 0.03rem 0.13rem;
+}
+
+body{
+    background: #eee;
+}
+header{
+    border-bottom: 1px solid #dddddd;
+    height:1.6rem;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+    box-sizing: border-box;
+    a{
+        float: left;
+        width: 0.48rem;
+        height:0.48rem;
+        margin: 0.57rem 0 0 0.57rem;
+        background: url(../img/small/76.jpg) no-repeat left center{size:0.48rem auto};
+    }
+    h3{
+        float: left;
+        margin-left: 0.5rem;
+        font:0.58rem/1.6rem "" {
+            weight:600;
+        }
+    }
+    
+}
+#jifen{
+    height:1.6rem;
+    @include cf;
+    margin-top: 1.6rem;
+    background: #fff;
+    h4{
+        float: left;
+        height: 100%;
+        margin-left: 0.33rem;
+        b{
+            font:0.34rem/1.6rem "";
+            
+        }
+        i{
+            font:0.44rem/1.6rem "";
+            color:#F04847;
+        }
+        img{
+            width: 0.5rem;
+            vertical-align: text-bottom;
+        }
+    }
+    h5{
+        float: right;
+            font:0.40rem/1.6rem "";
+        margin-right: 0.33rem;
+        color:#F04847;
+        
+    }
+}
+
+
+
+#box2{
+        margin-top: 0.3rem;
+    ul{
+        width: 10.33rem;
+        margin: 0 auto 0.35rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        li{
+            background: #FFFFFF;
+            @include shadow;
+            width: 5.05rem;
+            border-radius: 3px;
+            margin-bottom: 0.22rem;
+            a{
+                
+                dl{
+                    dt{
+                        width:2.06rem;
+                        height:2.06rem;
+                        margin: 0.26rem auto 0.43rem;
+                        img{
+                            display: block;
+                            width:100%;
+                            height: 100%;
+                        }
+                    }
+                    dd{
+                        h4{
+                            height: 1.35rem;
+                            width: 4.45rem;
+                            margin: 0 auto;
+                            font:0.43rem/0.72rem "微软雅黑";
+                            color:#000000;
+                        }
+                        .fa{
+                            margin-top: 0.68rem;
+                            height: 3.76rem;
+                            background: url(../img/small/83.jpg) no-repeat left top;
+                            background-size: 100% auto;
+                            position: relative;
+                            overflow: hidden;
+                            .beijing{
+                                position: absolute;
+                                height: 3.2rem;
+                                bottom: -0.5rem;
+                                right: -1rem;
+                                opacity: 0.2;
+                            }
+                          
+                            
+                            .qian{
+                                width: 100%;
+                                position: absolute;
+                                bottom: 0.6rem;
+                                z-index: 2;
+                                h5{
+                                height: 1.97rem;
+                                margin: 0 0.34rem;
+                                b{
+                                    font: 0.54rem/1.97rem "";
+                                    color:#F04847;
+                                }
+                                i{
+                                    font: 0.3rem "";   
+                                }
+                            }
+                            p{
+                                width: 2.73rem;
+                                height: 0.89rem;
+                                border-radius: 0.44rem;
+                                background: #F04847;
+                                text-align: center;
+                                font: 0.38rem/0.89rem "";
+                                color:#fff;
+                                margin: 0 auto;
+                            }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

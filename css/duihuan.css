@@ -1,0 +1,118 @@
+@charset "UTF-8";
+body {
+  background: #eee; }
+
+header {
+  border-bottom: 1px solid #dddddd;
+  height: 1.6rem;
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 5;
+  box-sizing: border-box; }
+  header a {
+    float: left;
+    width: 0.48rem;
+    height: 0.48rem;
+    margin: 0.57rem 0 0 0.57rem;
+    background: url(../img/small/76.jpg) no-repeat left center;
+      background-size: 0.48rem auto; }
+  header h3 {
+    float: left;
+    margin-left: 0.5rem;
+    font: 0.58rem/1.6rem "";
+      font-weight: 600; }
+
+#jifen {
+  height: 1.6rem;
+  zoom: 1;
+  margin-top: 1.6rem;
+  background: #fff; }
+  #jifen:after {
+    content: "";
+    clear: both;
+    display: block; }
+  #jifen h4 {
+    float: left;
+    height: 100%;
+    margin-left: 0.33rem; }
+    #jifen h4 b {
+      font: 0.34rem/1.6rem ""; }
+    #jifen h4 i {
+      font: 0.44rem/1.6rem "";
+      color: #F04847; }
+    #jifen h4 img {
+      width: 0.5rem;
+      vertical-align: text-bottom; }
+  #jifen h5 {
+    float: right;
+    font: 0.40rem/1.6rem "";
+    margin-right: 0.33rem;
+    color: #F04847; }
+
+#box2 {
+  margin-top: 0.3rem; }
+  #box2 ul {
+    width: 10.33rem;
+    margin: 0 auto 0.35rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    #box2 ul li {
+      background: #FFFFFF;
+      box-shadow: #ccc 0 0.03rem 0.13rem;
+      width: 5.05rem;
+      border-radius: 3px;
+      margin-bottom: 0.22rem; }
+      #box2 ul li a dl dt {
+        width: 2.06rem;
+        height: 2.06rem;
+        margin: 0.26rem auto 0.43rem; }
+        #box2 ul li a dl dt img {
+          display: block;
+          width: 100%;
+          height: 100%; }
+      #box2 ul li a dl dd h4 {
+        height: 1.35rem;
+        width: 4.45rem;
+        margin: 0 auto;
+        font: 0.43rem/0.72rem "微软雅黑";
+        color: #000000; }
+      #box2 ul li a dl dd .fa {
+        margin-top: 0.68rem;
+        height: 3.76rem;
+        background: url(../img/small/83.jpg) no-repeat left top;
+        background-size: 100% auto;
+        position: relative;
+        overflow: hidden; }
+        #box2 ul li a dl dd .fa .beijing {
+          position: absolute;
+          height: 3.2rem;
+          bottom: -0.5rem;
+          right: -1rem;
+          opacity: 0.2; }
+        #box2 ul li a dl dd .fa .qian {
+          width: 100%;
+          position: absolute;
+          bottom: 0.6rem;
+          z-index: 2; }
+          #box2 ul li a dl dd .fa .qian h5 {
+            height: 1.97rem;
+            margin: 0 0.34rem; }
+            #box2 ul li a dl dd .fa .qian h5 b {
+              font: 0.54rem/1.97rem "";
+              color: #F04847; }
+            #box2 ul li a dl dd .fa .qian h5 i {
+              font: 0.3rem ""; }
+          #box2 ul li a dl dd .fa .qian p {
+            width: 2.73rem;
+            height: 0.89rem;
+            border-radius: 0.44rem;
+            background: #F04847;
+            text-align: center;
+            font: 0.38rem/0.89rem "";
+            color: #fff;
+            margin: 0 auto; }
+
+/*# sourceMappingURL=duihuan.css.map */
